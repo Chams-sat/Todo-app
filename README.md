@@ -14,8 +14,8 @@ A sleek, modern, and responsive Todo App built with vanilla JavaScript, HTML, an
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
-   cd <repo-folder>
+   git clone https://github.com/Chams-sat/Todo-app.git
+   cd Todo-app
    ```
 2. **Open `index.html` in your browser.**
    - No build step or dependencies required!
@@ -24,7 +24,7 @@ A sleek, modern, and responsive Todo App built with vanilla JavaScript, HTML, an
 - You can deploy this app easily using [GitHub Pages](https://pages.github.com/), [Vercel](https://vercel.com/), or [Netlify](https://www.netlify.com/).
 
 ## Screenshots
-![Screenshot](screenshot.png)
+![Screenshot](images/screenshot.png)
 
 ## Credits
 - Designed and developed by Chams Satour.
