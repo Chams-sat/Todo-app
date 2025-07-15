@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/favicon.ico" href="images/check.png">
+</head>
+<body>
+    <div class="container" role="main" aria-label="To-Do-List">
+        <div class="glass-card">
+            <h1 id="main-title">My Tasks</h1>
+            <div class="input-container">
+                <input type="text" id="task-input" placeholder="Add a new task..." aria-label="Add a new task">
+                <button id="add-btn" aria-label="Add task"><i class="fas fa-plus"></i></button>
+            </div>
+            
+            <div class="filters" role="group" aria-label="Task filters">
+                <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+                <button class="filter-btn" data-filter="active" aria-pressed="false">Active</button>
+                <button class="filter-btn" data-filter="completed" aria-pressed="false">Completed</button>
+            </div>
+            
+            <ul id="task-list" aria-labelledby="main-title"></ul>
+            
+            <div class="task-counter">
+                <span id="count" aria-live="polite">0 tasks left</span>
+                <button id="clear-completed" aria-label="Clear completed tasks">Clear Completed</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="snackbar" role="status" aria-live="polite"></div>
+    
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
