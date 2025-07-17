@@ -18,8 +18,8 @@ A sleek, modern, and responsive Todo App built with vanilla JavaScript, HTML, an
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Chams-sat/Todo-app.git
-   cd Todo-app
+   git clone <YOUR_REPO_URL>
+   cd <YOUR_PROJECT_NAME>
    ```
 2. **Open `index.html` in your browser.**
    - No build step or dependencies required!
