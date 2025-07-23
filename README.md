@@ -6,6 +6,10 @@ A sleek, modern, and responsive Todo App built with vanilla JavaScript, HTML, an
   <img src="images/screenshot.png" alt="Project Screenshot" width="80%" />
 </p>
 
+## 🚀 Live Demo
+
+[View Live Demo](https://chams-sat.github.io/Todo-app/)
+
 ## Features
 - Add, edit, delete, and complete tasks
 - Filter tasks (All, Active, Completed)
